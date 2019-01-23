@@ -14,7 +14,7 @@ describe "GIT" do
 
   it "3. What is the syntax for committing all staged changes with the message
       'update link styles'?" do
-    answer = "git commit -m 'update link styles'"
+    answer = "?"
     encoded_answer = "8d06e2760cda4755f387db0db0e6c425b2ece976"
     expect(encode(answer)).to eq(encoded_answer)
   end
@@ -61,7 +61,7 @@ describe "GIT" do
 
 # describe "FETCHING:" do
   it "9. What command do you run to update all branches from all remotes?" do
-    answer = "git fetch ."
+    answer = "?"
     encoded_answer = "01e5711a6878a7ed0e4c0078870b772d0a58f510"
     expect(encode(answer)).to eq(encoded_answer)
   end
